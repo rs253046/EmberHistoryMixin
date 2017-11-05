@@ -1,3 +1,7 @@
 <h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+{{outlet}} |
+
+{{#link-to "employee"}}Employee{{/link-to}} |
+{{#link-to "name" }}Name{{/link-to}} |
+{{#link-to "test" (query-params asdf='asd')}}Test{{/link-to}}
